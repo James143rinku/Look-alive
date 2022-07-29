@@ -56,17 +56,50 @@ html {
   margin-top: 10rem;
 }
 
-
-#AboutContainer{
-  margin: 100px 0;
+.sucess-content{
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 5px;
 }
-.about-text{
-  text-align: justify;
-}
-.about-img img{
+.sucess-content img{
   width: 100%;
-  background-size: cover;
 }
+.sucess-content .skill{
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(143, 143, 143);
+}
+
+.sucess-content .sucess-story {
+  padding: 15px;
+}
+
+#quistion,
+#trust-company,
+footer {
+  margin-top: 5rem;
+}
+
+.footer-container{
+  padding: 60px 0;
+
+}
+.footer-brand{
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+}
+.footer-brand:hover{
+  color: white;
+}
+.footer-txt{
+  font-size: 14px;
+  padding: 10px 0;
+}
+.social-logo a{
+  padding: 0 10px;
+  font-size: 20px;
+}
+
 
 
 
