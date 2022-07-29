@@ -207,6 +207,76 @@ footer {
 
 }
 
+/* ----For-tablet---- */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .Slider .carousel-item h1{
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
 
+    .Slider .carousel-item{
+      height: 300px;
+    }
+
+    .Slider .carousel-caption .get-started-btn{
+      padding: 5px 20px;
+      font-size: 1rem;
+    }
+    .Slider .carousel-item p{
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+
+    /* -----registration-section----- */
+    .reg-content{
+      flex-direction: column;
+      text-align: center;
+    }
+    .register-content{
+      width: 100% !important;
+    }
+
+    .CoursesHeader{
+      width: 100% !important;
+     }
+   .course-header-title{
+    font-size: 50px;
+   }
+   .course-item{
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border: 1px solid gray !important;
+    padding: 0 10px;
+  }
+    .course-img img{
+      width: 100vw;
+      margin-bottom: 20px;
+    }
+
+    .reg-content{
+      flex-direction: column;
+      text-align: center;
+    }
+    .register-content{
+      width: 100% !important;
+    }
+    #trust-company{
+      display: none;
+    }
+
+    .faqs-title{
+      font-size: 40px;
+      margin-top: 50px;
+    }
+    .faqs-img{
+      margin-top: 50px;
+    }
+    .sucess-content{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+}
 
 
