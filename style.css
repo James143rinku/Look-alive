@@ -101,6 +101,112 @@ footer {
 }
 
 
+/* ----For-Mobile---- */
+@media screen and (max-width: 480px) {
+  .Slider .carousel-item h1{
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+  
+    .Slider .carousel-item{
+      height: 250px;
+    }
+
+    .Slider .carousel-caption .get-started-btn{
+      padding: 5px 20px;
+      font-size: 14px;
+    }
+    .course-header-title{
+      font-size: 20px;
+     }
+    .Slider .carousel-item p{
+      display: none;
+    }
+
+    /* -----registration-section----- */
+    .reg-content{
+      flex-direction: column;
+      text-align: center;
+      padding: 0 20px;
+    }
+    .register-content{
+      width: 100% !important;
+    }
+    .register-title{
+      font-size: 30px;
+      margin-bottom: 20px !important;
+    }
+    .register-brief{
+      font-size: 14px;
+    }
+
+    .CoursesHeader{
+      width: 100% !important;
+     }
+   .course-header-title{
+    font-size: 30px;
+   }
+   .course-header-brief{
+    font-size: 14px;
+   }
+     .course-item{
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 30px;
+      overflow: hidden;
+      border: 1px solid gray !important;
+      padding: 0 10px;
+    }
+    .course-img img{
+      width: 100vw;
+      margin-bottom: 20px;
+    }
+
+    reg-content{
+      flex-direction: column;
+      text-align: center;
+      padding: 0 20px;
+    }
+    .register-content{
+      width: 100% !important;
+    }
+    .register-title{
+      font-size: 30px;
+      margin-bottom: 20px !important;
+    }
+    .register-brief{
+      font-size: 14px;
+    }
+    #trust-company{
+      display: none;
+    }
+
+    .sucess-content{
+      width: 100% !important;
+      margin-bottom: 15px;
+    }
+    .success-title{
+      font-size: 20px;
+      line-height: 1.2;
+    }
+    .success-title-brief{
+      font-size: 14px;
+    }
+
+    .faqs-title{
+      font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: 20px !important;
+    }
+    .accordion-button{
+      font-size: 14px;
+    }
+    .accordion-body{
+      font-size: 14px;
+    }
+
+}
+
 
 
 
